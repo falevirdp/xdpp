@@ -2,13 +2,14 @@ sudo apt-get update > /dev/null 2>&1
 echo "===================================="
 echo "Install Firefox"
 echo "===================================="
-sudo apt install firefox -y > /dev/null 2>&1
+sudo apt install firefox -y
+clear
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
-sudo apt install -y xrdp > /dev/null 2>&1
-sudo apt install xfce4 -y > /dev/null 2>&1
-sudo apt-get install xfce4 xfce4-terminal -y > /dev/null 2>&1
+sudo apt install -y xrdp
+sudo apt install xfce4 -y
+sudo apt-get install xfce4 xfce4-terminal -y
 echo "===================================="
 echo "Start RDP"
 echo "===================================="
