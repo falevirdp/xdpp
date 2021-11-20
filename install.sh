@@ -1,3 +1,4 @@
+echo "root:123123" | sudo chpasswd
 sudo apt-get update > /dev/null 2>&1
 echo "===================================="
 echo "Install Firefox"
