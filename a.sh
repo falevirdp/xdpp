@@ -1,3 +1,6 @@
+apt update
+apt install screen -y
+apt install sudo -y
 sudo adduser akuhnet --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
 echo "akuhnet:123" | sudo chpasswd
 sudo usermod -aG sudo,adm akuhnet
